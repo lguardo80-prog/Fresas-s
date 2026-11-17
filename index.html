@@ -1,14 +1,346 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>fresas</title>
+    <title>Fresas con Crema Artesanales | Placer Irresistible</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logo.png">
 </head>
 
 <body>
+
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="Logo FresaS&S" width="36" height="36" class="logo-icon">
+                <span class="logo-text">Fresa<span class="highlight">S&S</span></span>
+            </a>
+            <nav class="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#menu">Menú</a>
+                <a href="#toppings">Toppings</a>
+                <a href="#contacto" class="nav-cta">Pedir Ahora</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="badge">✨ Frescura Diaria & Crema de la Casa</span>
+                <h1>El arte de las <br><span class="gradient-text">Fresas con Crema</span> llevadas al límite.</h1>
+                <p>Seleccionamos las fresas más dulces y jugosas para bañarlas en nuestra crema artesanal de la casa
+                    ultra sedosa, coronadas con tus toppings y salsas favoritas.</p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/573052441870?text=Hola!%20Quiero%20pedir%20unas%20deliciosas%20fresas%20con%20crema%20🍓"
+                        target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                        Pedir por WhatsApp
+                    </a>
+                    <a href="#toppings" class="btn btn-secondary">Ver Toppings y Salsas</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <strong>100%</strong>
+                        <span>Fruta Fresca</span>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="stat">
+                        <strong>2 + 1</strong>
+                        <span>Toppings + Salsa Incluidos</span>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="stat">
+                        <strong>4.9 ★</strong>
+                        <span>Antojo Garantizado</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="glass-card showcase-card">
+                    <div class="floating-badge">🔥 La Más Pedida</div>
+                    <div class="visual-art">
+                        <div class="cream-swirl"></div>
+                        <div class="berry-emoji">🍓</div>
+                    </div>
+                    <div class="showcase-info">
+                        <h3>Copa Real 16oz</h3>
+                        <p>Fresas frescas, doble porción de crema de la casa, 2 toppings clásicos y 2 salsas artesanales
+                            a tu elección.</p>
+                        <div class="price-tag">$23.000 COP</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="sub-tag">Nuestras Creaciones</span>
+                <h2>Elige tu próxima obsesión</h2>
+                <p>Pasa el puntero (o toca la tarjeta) para ver los ingredientes y precios. Todas incluyen <strong>2
+                        toppings clásicos + 1 salsa</strong> gratis.</p>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Producto 1: La Tradicional -->
+                <article class="flip-card">
+                    <div class="flip-card-inner">
+                        <!-- Cara Frontal: Imagen -->
+                        <div class="flip-card-front">
+                            <img src="tradicional.jpg" alt="Fresas frescas con crema artesanal tradicional">
+                            <div class="front-overlay">
+                                <span class="tag-pill-front">10 oz • Clásica</span>
+                                <h3>La Tradicional</h3>
+                                <span class="flip-hint">↻ Pasa el puntero para ver detalle</span>
+                            </div>
+                        </div>
+                        <!-- Cara Trasera: Descripción y Precio -->
+                        <div class="flip-card-back">
+                            <div class="back-top">
+                                <span class="card-emoji">🍓</span>
+                                <span class="tag-pill">10 oz • Clásica</span>
+                            </div>
+                            <h3>La Tradicional</h3>
+                            <p>Fresas frescas laminadas bañadas en nuestra suave crema de la casa, acompañadas de 2
+                                toppings clásicos (maní triturado, Milo, masmelo o leche en polvo) y 1 salsa a elección.
+                            </p>
+                            <div class="card-footer">
+                                <span class="price">$15.000</span>
+                                <a href="https://wa.me/573052441870?text=Hola!%20Me%20gustaría%20pedir%20La%20Tradicional%20de%2010oz%20($15.000)%20🍓"
+                                    target="_blank" rel="noopener noreferrer" class="order-link">Ordenar →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 2: Choco-Oreo Crunch -->
+                <article class="flip-card featured">
+                    <div class="flip-card-inner">
+                        <!-- Cara Frontal: Imagen -->
+                        <div class="flip-card-front">
+                            <div class="ribbon">Favorita</div>
+                            <img src="choco-oreo.jpg" alt="Copa de fresas con crema, galleta Oreo y chocolate">
+                            <div class="front-overlay">
+                                <span class="tag-pill-front">12 oz • Irresistible</span>
+                                <h3>Choco-Oreo Crunch</h3>
+                                <span class="flip-hint">↻ Pasa el puntero para ver detalle</span>
+                            </div>
+                        </div>
+                        <!-- Cara Trasera: Descripción y Precio -->
+                        <div class="flip-card-back">
+                            <div class="back-top">
+                                <span class="card-emoji">🍫</span>
+                                <span class="tag-pill">12 oz • Irresistible</span>
+                            </div>
+                            <h3>Choco-Oreo Crunch</h3>
+                            <p>Fresas frescas sumergidas en crema de la casa con trozos de galleta Oreo, Milo, salsa de
+                                chocolate o leche condensada (puedes añadir Nutella o chips de chocolate premium).</p>
+                            <div class="card-footer">
+                                <span class="price">$20.000</span>
+                                <a href="https://wa.me/573052441870?text=Hola!%20Me%20gustaría%20pedir%20la%20Choco-Oreo%20de%2012oz%20($18.000)%20🍫🍓"
+                                    target="_blank" rel="noopener noreferrer" class="order-link">Ordenar →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 3: Queso & Arequipe -->
+                <article class="flip-card">
+                    <div class="flip-card-inner">
+                        <!-- Cara Frontal: Imagen -->
+                        <div class="flip-card-front">
+                            <img src="quezo-arequipe.jpg" alt="Postre de fresas con crema dulce, arequipe y queso">
+                            <div class="front-overlay">
+                                <span class="tag-pill-front">12 oz • Especial</span>
+                                <h3>Queso & Arequipe</h3>
+                                <span class="flip-hint">↻ Pasa el puntero para ver detalle</span>
+                            </div>
+                        </div>
+                        <!-- Cara Trasera: Descripción y Precio -->
+                        <div class="flip-card-back">
+                            <div class="back-top">
+                                <span class="card-emoji">🧀</span>
+                                <span class="tag-pill">12 oz • Especial</span>
+                            </div>
+                            <h3>Queso & Arequipe</h3>
+                            <p>Combinación irresistible de fresas frescas, crema de la casa, abundante salsa de
+                                arequipe, queso rallado y tus 2 toppings clásicos favoritos para el contraste
+                                dulce-salado perfecto.</p>
+                            <div class="card-footer">
+                                <span class="price">$18.000</span>
+                                <a href="https://wa.me/573052441870?text=Hola!%20Me%20gustaría%20pedir%20la%20de%20Queso%20y%20Arequipe%20de%2012oz%20($18.000)%20🍓"
+                                    target="_blank" rel="noopener noreferrer" class="order-link">Ordenar →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Producto 4: Copa Real 16oz -->
+                <article class="flip-card">
+                    <div class="flip-card-inner">
+                        <!-- Cara Frontal: Imagen -->
+                        <div class="flip-card-front">
+                            <img src="copa real.jpg" alt="Copa gigante de fresas con crema y toppings">
+                            <div class="front-overlay">
+                                <span class="tag-pill-front">16 oz • Para Compartir</span>
+                                <h3>Copa Real 16oz</h3>
+                                <span class="flip-hint">↻ Pasa el puntero para ver detalle</span>
+                            </div>
+                        </div>
+                        <!-- Cara Trasera: Descripción y Precio -->
+                        <div class="flip-card-back">
+                            <div class="back-top">
+                                <span class="card-emoji">👑</span>
+                                <span class="tag-pill">16 oz • Para Compartir</span>
+                            </div>
+                            <h3>Copa Real 16oz</h3>
+                            <p>Nuestro tamaño gigante con doble porción de fresas frescas, crema de la casa extra, tus 2
+                                toppings clásicos incluidos (Oreo, Milo, maní, masmelo o leche en polvo) y 2 salsas
+                                artesanales.</p>
+                            <div class="card-footer">
+                                <span class="price">$23.000</span>
+                                <a href="https://wa.me/573052441870?text=Hola!%20Me%20gustaría%20pedir%20la%20Copa%20Real%20de%2016oz%20($23.000)%20👑🍓"
+                                    target="_blank" rel="noopener noreferrer" class="order-link">Ordenar →</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="toppings" class="toppings-section">
+        <div class="container toppings-wrapper">
+            <div class="toppings-header">
+                <span class="sub-tag light">Personaliza tu Antojo</span>
+                <h2>Arma tu vaso a tu manera</h2>
+                <div class="promo-rule-banner">
+                    <span class="promo-icon">🎁</span>
+                    <p>Por la compra de cualquier presentación tienes derecho a <strong>2 Toppings Clásicos + 1
+                            Salsa</strong> incluidos. <span class="extra-note">Adicional de clásico o salsa:
+                            <strong>$2.000</strong></span></p>
+                </div>
+            </div>
+
+            <div class="toppings-categories-grid">
+                <!-- Toppings Clásicos -->
+                <div class="topping-category-card">
+                    <div class="cat-header">
+                        <div class="cat-title">
+                            <span class="cat-emoji">✨</span>
+                            <h3>Toppings Clásicos</h3>
+                        </div>
+                        <span class="cat-badge included">Elige 2 Gratis</span>
+                    </div>
+                    <ul class="topping-list">
+                        <li><span>🥜</span> Maní Triturado</li>
+                        <li><span>🍪</span> Galleta Oreo</li>
+                        <li><span>⚡</span> Milo</li>
+                        <li><span>☁️</span> Masmelo</li>
+                        <li><span>🥛</span> Leche en Polvo</li>
+                    </ul>
+                    <div class="cat-footer-note">
+                        Adicional c/u: <strong>$2.000 COP</strong>
+                    </div>
+                </div>
+
+                <!-- Salsas -->
+                <div class="topping-category-card">
+                    <div class="cat-header">
+                        <div class="cat-title">
+                            <span class="cat-emoji">🍯</span>
+                            <h3>Salsas Artesanales</h3>
+                        </div>
+                        <span class="cat-badge included">Elige 1 Gratis</span>
+                    </div>
+                    <ul class="topping-list">
+                        <li><span>🍮</span> Arequipe</li>
+                        <li><span>🍼</span> Leche Condensada</li>
+                        <li><span>🍫</span> Chocolate</li>
+                        <li><span>🍒</span> Frutos Rojos</li>
+                    </ul>
+                    <div class="cat-footer-note">
+                        Adicional c/u: <strong>$2.000 COP</strong>
+                    </div>
+                </div>
+
+                <!-- Toppings Premium -->
+                <div class="topping-category-card premium-card">
+                    <div class="cat-header">
+                        <div class="cat-title">
+                            <span class="cat-emoji">👑</span>
+                            <h3>Toppings Premium</h3>
+                        </div>
+                        <span class="cat-badge premium-price">$3.000 c/u</span>
+                    </div>
+                    <ul class="topping-list">
+                        <li><span>🧀</span> Queso Rallado</li>
+                        <li><span>🤎</span> Nutella</li>
+                        <li><span>🍫</span> Chips de Chocolate</li>
+                    </ul>
+                    <div class="cat-footer-note premium-note">
+                        Eleva tu experiencia por solo <strong>$3.000 COP</strong> cada adición
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contacto" class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <img src="logo.png" alt="Logo FresaS&S" width="36" height="36" class="logo-icon">
+                    <span class="logo-text">Fresa<span class="highlight">S&S</span></span>
+                </a>
+                <p class="footer-desc">Endulzando tus días con pasión, calidad y el sabor auténtico de las mejores
+                    fresas con crema.</p>
+            </div>
+
+            <div class="footer-action">
+                <h3>¿Se te antojó?</h3>
+                <p>Escríbenos directo y te lo llevamos súper fresco.</p>
+                <a href="https://wa.me/573052441870?text=Hola!%20Quiero%20hacer%20un%20pedido%20de%20fresas%20con%20crema%20🍓"
+                    target="_blank" rel="noopener noreferrer" class="btn-whatsapp-footer">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                        <path
+                            d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.598.723 4.907 2.034 1.31 1.311 2.031 3.054 2.03 4.908-.001 3.825-3.113 6.938-6.937 6.938z" />
+                    </svg>
+                    <span>+57 305 244 1870</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="motivational-quote-box">
+            <div class="container">
+                <p class="motivational-quote">
+                    “Los grandes sueños comienzan con pequeños pasos hechos con pasión y constancia; cada esfuerzo de
+                    hoy es el dulce éxito de mañana.”
+                </p>
+                <span class="copyright">© 2026 Fresas con Crema Artesanales. Todos los derechos reservados.</span>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/573052441870?text=Hola!%20Quiero%20pedir%20unas%20fresas%20con%20crema%20🍓"
+        class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+            <path
+                d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.598.723 4.907 2.034 1.31 1.311 2.031 3.054 2.03 4.908-.001 3.825-3.113 6.938-6.937 6.938z" />
+        </svg>
+        <span class="tooltip">¡Haz tu pedido!</span>
+    </a>
 
 </body>
 
